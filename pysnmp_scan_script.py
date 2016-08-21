@@ -15,8 +15,6 @@ def snmp_devcie_scan(comnty, hostip, ):
                ObjectType(ObjectIdentity('SNMPv2-MIB', 'sysLocation', 0)),
                ObjectType(ObjectIdentity('SNMPv2-MIB', 'sysContact', 0)),
                ObjectType(ObjectIdentity('SNMPv2-MIB', 'sysObjectID', 0)),
-               ObjectType(ObjectIdentity('CISCO-SMI', 'sysObjectID', 0)),
-
                )
 
     )
