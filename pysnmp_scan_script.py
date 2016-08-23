@@ -48,7 +48,6 @@ for mgmtIP in mgmt_ip_list:
                         'syslocation': str(snmp_raw_data[3][1]),
                         'syscontact': str(snmp_raw_data[4][1]),
                         'sysobjectid': str(snmp_raw_data[5][1]),
-                        'sysobjectid2': str(snmp_raw_data[6][1]),
                         'mgmtIP': str(mgmtIP),
                         }
         snmpwalk_data.append(snmpscandata)
